@@ -1,0 +1,409 @@
+/*====================================================================== SITE  STARTED ======================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;700&family=Handlee&family=Mulish:ital,wght@0,300;0,500;0,700;1,300;1,900&family=Poppins&family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* user-select: none; */
+}
+
+/* <====================================================================== Site header started ======================================================================> */
+#header {
+    background: #FFFFFF;
+    border-top: 5px solid #FF7500;
+    /* position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); */
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.site-nav__logo:active {
+    opacity: 0.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 91px
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav__inner {
+    display: flex;
+}
+
+.site-nav__item {
+    margin-right: 32px;
+}
+
+.site-nav__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+.site-nav__link:hover {
+    color: #FF7500;
+}
+
+.site-nav__link:active {
+    opacity: 0.6;
+}
+
+.site-nav__link:focus {
+    border-bottom: 2px solid #FF7500;
+    color: #FF7500;
+    opacity: 0.6;
+}
+
+.btn__warningOne {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    background-color: #FF7500;
+    border-radius: 4px;
+
+}
+
+.btn__warningOne:hover {
+    opacity: 0.8;
+}
+
+.btn__warningOne:active {
+    opacity: 0.6;
+}
+
+/* <====================================================================== Site header finished ======================================================================> */
+
+
+/* <====================================================================== Site main started ======================================================================> */
+/* sectionOne started */
+#intro {
+    background-color: #252420;
+    height: 488px;
+    /* margin-top: 95px; */
+}
+
+.intro-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro__box {
+    width: 387px;
+    height: 328px;
+
+}
+
+.intro__line {
+    display: inline-block;
+    width: 80px;
+    height: 3px;
+    background: #FF7500;
+}
+
+.intro__heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    font-family: 'Roboto Condensed';
+}
+
+.intro__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.btn__warningTwo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    background-color: #FF7500;
+    border-radius: 4px;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.btn__warningTwo:hover {
+    opacity: 0.8;
+}
+
+.btn__warningTwo:active {
+    opacity: 0.6;
+}
+
+.intro__img {
+    transform: translateY(40px);
+}
+
+/* sectionOne finished */
+
+
+/* sectionTwo started */
+.definition {
+    margin-top: 237px;
+    margin-bottom: 210px;
+}
+
+.definition__heading {
+    width: 435px;
+    height: 172px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #000000;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.definition__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.definition__list {
+    width: 340px;
+    height: 300px;
+}
+
+.definition__img {
+    width: 100px;
+    height: 100px;
+}
+
+.definition__extra-heading {
+    width: 250px;
+    font-size: 24px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #000000;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.definition__extra-text {
+    width: 300px;
+    height: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+/* sectionTwo finished */
+
+/* sectionTheree started */
+.discount {
+    background: #FFFFFF;
+    margin-top: 120px;
+    margin-bottom: 160px;
+}
+
+.bg-dark {
+    width: 1100px;
+    height: 419px;
+    left: 170px;
+    top: 1640px;
+    background: #252420;
+    border-radius: 12px
+}
+
+.discount__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.discount__box {
+    width: 440px;
+    height: 291px;
+}
+
+.discount__heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+
+}
+
+.discount__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.discount__text-warning {
+    color: #FF7500;
+}
+
+.btn__warningTheree {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    background-color: #FF7500;
+    border-radius: 4px;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.btn__warningTheree:hover {
+    opacity: 0.8;
+}
+
+.btn__warningTheree:active {
+    opacity: 0.6;
+}
+
+.discount__img {
+    transform: translateY(-64px);
+}
+
+/* sectionTheree finished */
+
+/* <====================================================================== Site main finished ======================================================================> */
+
+/* <====================================================================== Site footer started ======================================================================> */
+
+#footer {
+    background: #F8F8F8;
+}
+
+.basement__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+    margin-bottom: 40px;
+}
+
+.icon__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon__list:not(:last-child) {
+    margin-right: 16px;
+}
+
+.basement__line {
+    height: 2px;
+    background: rgba(37, 36, 32, 0.5);
+}
+
+.icon__link :hover {
+    opacity: 0.8;
+}
+
+.icon__link :active {
+    opacity: 0.6;
+}
+
+.footer-intro__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 64px;
+    padding-bottom: 56px;
+
+}
+
+.definition__item {
+    line-height: 30px;
+}
+
+.definition__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #252420;
+}
+
+.definition__link:hover {
+    color: #FF7500;
+    opacity: 0.8;
+}
+
+.definition__link:active {
+    color: #FF7500;
+    opacity: 0.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* <====================================================================== Site footer finished ======================================================================> */
+
+
+/*====================================================================== SITE  FINISHED ======================================================================*/
